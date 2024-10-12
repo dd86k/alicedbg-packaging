@@ -1,0 +1,18 @@
+This repository is serving scripts and documentation how to package Alicedbg
+for various distributions.
+
+Expected packages:
+- "alicedbg": Application.
+- "alicedump": Application.
+- "libalicedbg": Development library (static and/or shared).
+
+Scripts should expect a "alicedbg" subdirectory where it contains the Alicedbg
+repository.
+
+The alicedbg repo contains these configurations using DUB:
+- "alicedbg": Debugger and shell application.
+- "alicedump": Object dumper application.
+- "library": Static library.
+- "shared": Shared object / Dynamically-linked library.
+
+All files are licensed under the CC0 1.0.
